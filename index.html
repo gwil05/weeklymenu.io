@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+
+<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="main.js"></script>
+
+</head>
+
+<body>
+<h1>S & G <br> Weekly Dinner Menu</h1>
+<h2></h2>
+<div class="Monday">
+  <p>Gnocchi <span class="vote"></span><br />
+  <small>Potato Gnocchi stuffed with tomato sauce and mozzarella cheese cooked to perfection when you follow the directions. </small></p>
+</div>
+
+<div class="Tuesday">
+  <p>Chicken & Sweet Potato <span class="vote"></span><br />
+  <small>Chicken and Sweet Potatos tossed in olive oil and our favorite seasonings along with a good amount of cajun for an added  KICK!</small></p>
+</div>
+
+<div class="Wednesday">
+  <p>Black Bean Tacos <span class="vote"></span><br />
+  <small>Black bean tacos seasoned to taste with a short list of tasty toppings: corn, cilantro, onions, goat cheese and your choice of a salsa or salsa verde.</small></p>
+</div>
+
+<div class="Thursday">
+  <p>Vegetable Lo Mein <span class="vote"></span><br />
+  <small>Lo mein mixed with veggies and an awesome sauce that makes your mouth water! New to the menu but the recipe looks to be promising.</small></p>
+</div>
+
+<div class="Friday">
+  <p>Balsamic Chicken<span class="vote"></span><br />
+  <small>Chicken and asparagus tossed in seasoned and a special blend of garlic and balsamic vinegar. As lovers of balsamic we cant help but continue to try the low-cal based vinegar sauces on our food.</small></p>
+</div>
+
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+</body>
+<footer>
+</footer>
+</html>
